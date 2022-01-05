@@ -1,1 +1,1 @@
-__version__ = '0.1.0'
+"""Module for the CLI interface for openrpc-client-generator."""
