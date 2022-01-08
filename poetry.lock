@@ -119,7 +119,7 @@ http2 = ["h2 (>=3,<5)"]
 
 [[package]]
 name = "httpx"
-version = "0.21.1"
+version = "0.21.3"
 description = "The next generation HTTP client."
 category = "main"
 optional = false
@@ -178,21 +178,21 @@ pydantic = ">=1.9.0,<2.0.0"
 
 [[package]]
 name = "openrpcclientgenerator"
-version = "0.23.3"
+version = "0.24.3"
 description = "Generate clients from an Open RPC document."
 category = "main"
 optional = false
-python-versions = ">=3.9,<4.0"
+python-versions = ">=3.10,<4.0"
 
 [package.dependencies]
 build = ">=0.7.0,<0.8.0"
 case-switcher = ">=1.1.7,<2.0.0"
-httpx = ">=0.21.1,<0.22.0"
+httpx = ">=0.21.2,<0.22.0"
 openrpc = ">=3.0.20,<4.0.0"
 
 [package.source]
 type = "file"
-url = "../openrpc-client-generator/dist/openrpcclientgenerator-0.23.3.tar.gz"
+url = "../openrpc-client-generator/dist/openrpcclientgenerator-0.24.3.tar.gz"
 
 [[package]]
 name = "packaging"
@@ -331,8 +331,8 @@ python-versions = ">=3.6"
 
 [metadata]
 lock-version = "1.1"
-python-versions = "^3.9"
-content-hash = "7d47bfd826fc40f6affe0fca787702d1f99d5d0745c4be7e651fcb6e00489c2d"
+python-versions = "^3.10"
+content-hash = "265e43fd18d0e314f09badc90488e59df6dfa469e75ab7d43c4b1afefef9b6a8"
 
 [metadata.files]
 anyio = [
@@ -375,8 +375,8 @@ httpcore = [
     {file = "httpcore-0.14.3.tar.gz", hash = "sha256:d10162a63265a0228d5807964bd964478cbdb5178f9a2eedfebb2faba27eef5d"},
 ]
 httpx = [
-    {file = "httpx-0.21.1-py3-none-any.whl", hash = "sha256:208e5ef2ad4d105213463cfd541898ed9d11851b346473539a8425e644bb7c66"},
-    {file = "httpx-0.21.1.tar.gz", hash = "sha256:02af20df486b78892a614a7ccd4e4e86a5409ec4981ab0e422c579a887acad83"},
+    {file = "httpx-0.21.3-py3-none-any.whl", hash = "sha256:df9a0fd43fa79dbab411d83eb1ea6f7a525c96ad92e60c2d7f40388971b25777"},
+    {file = "httpx-0.21.3.tar.gz", hash = "sha256:7a3eb67ef0b8abbd6d9402248ef2f84a76080fa1c839f8662e6eb385640e445a"},
 ]
 idna = [
     {file = "idna-3.3-py3-none-any.whl", hash = "sha256:84d9dd047ffa80596e0f246e2eab0b391788b0503584e8945f2368256d2735ff"},
@@ -395,7 +395,7 @@ openrpc = [
     {file = "openrpc-3.0.20.tar.gz", hash = "sha256:689d195358479725eeae372d44bb684bd229eb058baee495bbc125d7f9104fde"},
 ]
 openrpcclientgenerator = [
-    {file = "openrpcclientgenerator-0.23.3.tar.gz", hash = "sha256:6df7ca684c3f65721ac513cbb45482eda9d0400195bc866bec1d0c75fc7deefc"},
+    {file = "openrpcclientgenerator-0.24.3.tar.gz", hash = "sha256:28010ff304617d6a38baf82150ada455e46d3fbf40c9d6190e0282cbd48ac471"},
 ]
 packaging = [
     {file = "packaging-21.3-py3-none-any.whl", hash = "sha256:ef103e05f519cdc783ae24ea4e2e0f508a9c99b2d4969652eed6a2e1ea5bd522"},
