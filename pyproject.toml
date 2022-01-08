@@ -1,11 +1,11 @@
 [tool.poetry]
 name = "openrpc-client-generator-cli"
-version = "0.2.0"
+version = "0.2.1"
 description = ""
 authors = ["Matthew Burkard <matthewjburkard@gmail.com>"]
 
 [tool.poetry.dependencies]
-python = "^3.9"
+python = "^3.10"
 openrpcclientgenerator = {path = "../openrpc-client-generator/dist/openrpcclientgenerator-0.23.3.tar.gz"}
 
 [tool.poetry.dev-dependencies]
